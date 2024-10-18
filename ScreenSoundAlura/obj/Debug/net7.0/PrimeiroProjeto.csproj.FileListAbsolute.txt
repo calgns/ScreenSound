@@ -27,3 +27,17 @@ C:\Users\Sar12807\Downloads\csharp-01-aula_2\obj\Debug\net7.0\refint\PrimeiroPro
 C:\Users\Sar12807\Downloads\csharp-01-aula_2\obj\Debug\net7.0\PrimeiroProjeto.pdb
 C:\Users\Sar12807\Downloads\csharp-01-aula_2\obj\Debug\net7.0\PrimeiroProjeto.genruntimeconfig.cache
 C:\Users\Sar12807\Downloads\csharp-01-aula_2\obj\Debug\net7.0\ref\PrimeiroProjeto.dll
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\bin\Debug\net7.0\PrimeiroProjeto.exe
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\bin\Debug\net7.0\PrimeiroProjeto.deps.json
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\bin\Debug\net7.0\PrimeiroProjeto.runtimeconfig.json
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\bin\Debug\net7.0\PrimeiroProjeto.dll
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\bin\Debug\net7.0\PrimeiroProjeto.pdb
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.AssemblyInfo.cs
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.dll
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\refint\PrimeiroProjeto.dll
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.pdb
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\PrimeiroProjeto.genruntimeconfig.cache
+C:\Users\Sar12807\Documents\Projetos\CSharpProjs\ScreenSoundAlura\obj\Debug\net7.0\ref\PrimeiroProjeto.dll
