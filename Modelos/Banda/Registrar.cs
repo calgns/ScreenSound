@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Text;
 using System;
-using PrimeiroProjeto.Contollers.Componentes;
-using PrimeiroProjeto.Views.Exibir;
+using PrimeiroProjeto.Contollers.Banda;
+using PrimeiroProjeto.Views.ExibirBanda;
 
 namespace PrimeiroProjeto.Modelos.Banda;
 

@@ -1,5 +1,5 @@
-﻿using PrimeiroProjeto.Contollers.Componentes;
-using PrimeiroProjeto.Views.Exibir;
+﻿using PrimeiroProjeto.Contollers.Banda;
+using PrimeiroProjeto.Views.ExibirBanda;
 using System;
 using System.Collections.Generic;
 using System.Linq;
