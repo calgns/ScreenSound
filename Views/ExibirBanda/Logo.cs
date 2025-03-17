@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System;
-using PrimeiroProjeto.Contollers.Componentes;
-using PrimeiroProjeto.Modelos.Banda;
+using PrimeiroProjeto.Controllers.Componentes;
+using PrimeiroProjeto.Modelos;
 
 namespace PrimeiroProjeto.Views.ExibirBanda;
 

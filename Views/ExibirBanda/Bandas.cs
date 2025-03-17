@@ -1,4 +1,4 @@
-﻿using PrimeiroProjeto.Contollers.Componentes;
+﻿using PrimeiroProjeto.Controllers.Componentes;
 using System;
 using System.Collections.Generic;
 using System.Linq;

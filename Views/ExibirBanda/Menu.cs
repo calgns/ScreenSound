@@ -1,10 +1,10 @@
-﻿using PrimeiroProjeto.Contollers.Componentes;
+﻿using PrimeiroProjeto.Controllers.Componentes;
 using System;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using PrimeiroProjeto.Modelos.Banda;
+using PrimeiroProjeto.Controllers;
 
 namespace PrimeiroProjeto.Views.ExibirBanda;
 public class Menu {
