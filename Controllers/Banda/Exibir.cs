@@ -1,11 +1,13 @@
-﻿namespace PrimeiroProjeto.Controllers;
+using PrimeiroProjeto.Controllers.Musica;
+
+namespace PrimeiroProjeto.Controllers.Banda;
 public class Exibir : IExibir {
     public void Albuns(List<Album> albuns, string nomeBanda) {
         if (albuns.Count > 1) {
             Console.WriteLine($"Albuns da banda {nomeBanda}: ");
             for (int i = 0; i < albuns.Count; i++) {
                 Console.WriteLine($"  {i + 1} - {albuns[i].Name};");
-            }
+            } 
         }
         else if(albuns.Count == 1) 
             Console.WriteLine($"A banda {nomeBanda} possui apenas um album: {albuns[0].Name}");
@@ -13,15 +15,15 @@ public class Exibir : IExibir {
             Console.WriteLine($"Não foi encontrado nenhum album da banda {nomeBanda}!");
     }
 
-    public void Musicas(List<Musica> musicas, string nomeBanda) {
+    public void Musicas(List<MusicaCLS> musicas, string nomeBanda) {
         if (musicas.Count > 1) {
             Console.WriteLine($"Musicas da banda {nomeBanda}: ");
             for (int i = 0; i < musicas.Count; i++) {
-                Console.WriteLine($"  {i + 1} - {musicas[i].Nome};");
+                Console.WriteLine($"  {i + 1} - {musicas[i].NomeMusica};");
             }
         }
         else if (musicas.Count == 1)
-            Console.WriteLine($"A banda {nomeBanda} possui apenas uma musica: {musicas[0].Nome}");
+            Console.WriteLine($"A banda {nomeBanda} possui apenas uma musica: {musicas[0].NomeMusica}");
         else
             Console.WriteLine($"Não foi encontrado nenhuma musica da banda {nomeBanda}!");
     }
