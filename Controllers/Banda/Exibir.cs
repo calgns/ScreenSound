@@ -1,4 +1,4 @@
-using PrimeiroProjeto.Controllers.Musica;
+﻿using PrimeiroProjeto.Controllers.Musica;
 
 namespace PrimeiroProjeto.Controllers.Banda;
 public class Exibir : IExibir {

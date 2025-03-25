@@ -7,6 +7,7 @@ public class MusicaCLS {
 
 	#region [Propriedades]
 	public float Nota { get; }
+	public float Tempo { get; }
 	public string Duracao { get; }
 	public string NomeMusica { get; }
 	public BandaCLS bandaInfo { get; }
@@ -26,10 +27,11 @@ public class MusicaCLS {
 		List<Patrocinadores>? patrocinadores = null, 
 		List<ColaboradorEspecial>? colaboradoresEspeciais = null)
 	{
-		NomeMusica = nomeMusica;
+		Tempo = duracao;
 		bandaInfo = banda;
-		Compositores = compositores;
+		NomeMusica = nomeMusica;
 		Integrantes = integrantes;
+		Compositores = compositores;
 		Patrocinadores = patrocinadores;
 		ColaboradoresEspeciais = colaboradoresEspeciais;
 
@@ -42,17 +44,17 @@ public class MusicaCLS {
 
 	#region [Métodos de Exibição]
 
-	public void ExibirIntegrantes(List<Integrante> integrantes) {
-		exibir.ExibirIntegrantes(integrantes);
+	public void ExibirIntegrantes() {
+		exibir.ExibirIntegrantes(Integrantes);
 	}
-	public void ExibirCompositores(List<Compositor> compositores) {
-		exibir.ExibirCompositores(compositores);
+	public void ExibirCompositores() {
+		exibir.ExibirCompositores(Compositores);
 	}
-	public void ExibirPatrocinadores(List<Patrocinadores> patrocinadores) {
-		exibir.ExibirPatrocinadores(patrocinadores);
+	public void ExibirPatrocinadores() {
+		exibir.ExibirPatrocinadores(Patrocinadores);
 	}
-	public void ExibirColaboradoresEspeciais(List<ColaboradorEspecial> colaboradoresEspeciais) {
-		exibir.ExibirColaboradoresEspeciais(colaboradoresEspeciais);
+	public void ExibirColaboradoresEspeciais() {
+		exibir.ExibirColaboradoresEspeciais(ColaboradoresEspeciais);
 	}
 
 	#endregion

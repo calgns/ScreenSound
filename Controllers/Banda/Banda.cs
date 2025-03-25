@@ -1,4 +1,4 @@
-using PrimeiroProjeto.Controllers.Musica;
+﻿using PrimeiroProjeto.Controllers.Musica;
 
 namespace PrimeiroProjeto.Controllers.Banda;
 
@@ -19,17 +19,20 @@ public class BandaCLS {
 		Nome = nome;
 		Genero = genero;
 		AnoDeFormacao = anoDeFormacao;
+
 		Albuns = new List<Album>();
 		Musicas = new List<MusicaCLS>();
         Integrantes = new List<Integrante>();
+
         foreach (var musica in musicas) AdicionarMusica(musica);
 		foreach (var integrante in integrantes) AdicionarIntegrante(integrante);
 	}
 
-	public Banda(string nome, string genero, int anoDeFormacao, MusicaCLS musica, Integrante integrante) {
+	public BandaCLS(string nome, string genero, int anoDeFormacao, MusicaCLS musica, Integrante integrante) {
 		Nome = nome;
 		Genero = genero;
 		AnoDeFormacao = anoDeFormacao;
+
 		Albuns = new List<Album>();
         Musicas = new List<MusicaCLS>();
         Integrantes = new List<Integrante>();
